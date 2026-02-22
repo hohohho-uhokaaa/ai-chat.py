@@ -62,6 +62,9 @@ PermissionError が発生した場合は、.cache ディレクトリの所有権
 エラー対応:
 万が一、モデルダウンロード時に PermissionError が発生した場合は、ロックファイルの削除 find .cache -name "*.lock" -delete を試みてください。
 
+Qwenがばかすぎ:
+コードの messages のところが initial プロンプトなので適宜Qwenが言うこと聞くよう修正要
+
 <img width="893" height="876" alt="image" src="https://github.com/user-attachments/assets/f459df44-f89e-461a-8675-6e18687afc6a" />
 
 $ /bin/python /home/datahogehogep/Projects/Sources/Python/ai-chat-frontend-gui-py/ai-chat.py
