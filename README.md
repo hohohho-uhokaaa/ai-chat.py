@@ -61,3 +61,11 @@ PermissionError が発生した場合は、.cache ディレクトリの所有権
 
 エラー対応:
 万が一、モデルダウンロード時に PermissionError が発生した場合は、ロックファイルの削除 find .cache -name "*.lock" -delete を試みてください。
+
+<img width="893" height="876" alt="image" src="https://github.com/user-attachments/assets/f459df44-f89e-461a-8675-6e18687afc6a" />
+$ /bin/python /home/datahogehogep/Projects/Sources/Python/ai-chat-frontend-gui-py/ai-chat.py
+QSocketNotifier: Can only be used with threads started with QThread
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 338/338 [00:06<00:00, 54.32it/s, Materializing param=model.norm.weight]
+Some parameters are on the meta device because they were offloaded to the disk and cpu.
+
+(python:107829): Gtk-WARNING **: 03:56:16.086: Theme parsing error: <data>:1:0: Expected a valid selector
