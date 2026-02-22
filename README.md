@@ -65,6 +65,7 @@ PermissionError が発生した場合は、.cache ディレクトリの所有権
 <img width="893" height="876" alt="image" src="https://github.com/user-attachments/assets/f459df44-f89e-461a-8675-6e18687afc6a" />
 
 $ /bin/python /home/datahogehogep/Projects/Sources/Python/ai-chat-frontend-gui-py/ai-chat.py
+
 QSocketNotifier: Can only be used with threads started with QThread
 Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 338/338 [00:06<00:00, 54.32it/s, Materializing param=model.norm.weight]
 Some parameters are on the meta device because they were offloaded to the disk and cpu.
