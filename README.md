@@ -28,6 +28,7 @@ Bash
 pip install torch torchvision torchaudio
 pip install transformers accelerate
 pip install PyQt5 markdown pygments
+
 💻 使い方
 スクリプトを実行します。
 
@@ -43,6 +44,7 @@ ai-chat.py: メインプログラム
 .cache/: AIモデルキャッシュ（自動生成）
 
 chat_history.txt: タイムスタンプ付き対話ログ（自動生成）
+Grok はログ吐き出しまでコードしてくれましたが Gemini が省いたっぽい
 
 📄 ライセンス / Copyright
 Copyright © 2026 Google Gemini.
