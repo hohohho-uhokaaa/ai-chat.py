@@ -75,11 +75,10 @@ $ /bin/python /home/datahogehogep/Projects/Sources/Python/ai-chat-frontend-gui-p
 
 QSocketNotifier: Can only be used with threads started with QThread
 
-<img width="1110" height="755" alt="image" src="https://github.com/user-attachments/assets/d5dda1b2-95ac-456e-9563-969af7c3d79a" />
-
-
-
 Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 338/338 [00:06<00:00, 54.32it/s, Materializing param=model.norm.weight]
 Some parameters are on the meta device because they were offloaded to the disk and cpu.
 
 (python:107829): Gtk-WARNING **: 03:56:16.086: Theme parsing error: <data>:1:0: Expected a valid selector
+
+
+<img width="1110" height="755" alt="image" src="https://github.com/user-attachments/assets/d5dda1b2-95ac-456e-9563-969af7c3d79a" />
